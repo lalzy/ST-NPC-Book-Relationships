@@ -1,0 +1,11 @@
+{
+    "display_name": "NPC Book — Relationships",
+    "loading_order": 110,
+    "requires": [],
+    "optional": [],
+    "js": "index.js",
+    "author": "S.K.N The Lisper",
+    "version": "1.0.0",
+    "homePage": "",
+    "auto_update": false
+}
