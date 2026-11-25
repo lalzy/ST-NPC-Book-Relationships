@@ -17,7 +17,7 @@ export async function register() {
         sheetLabel: 'Relationships',
         cardTab: {
             label: 'Relationships',
-            icon: 'fa-people-arrows',
+            icon: 'fa-users-viewfinder',
             render(host, { data, template, id, scope }) {
                 if (!Array.isArray(data.list)) data.list = clone(relsOf(null, template));
                 const chat = scope === 'instance';

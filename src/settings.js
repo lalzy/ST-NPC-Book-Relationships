@@ -53,7 +53,7 @@ export function mountSettings(api) {
     const s = settings();
     const html = $(`<div id="npcbr_settings">
         <div class="inline-drawer">
-            <div class="inline-drawer-toggle inline-drawer-header"><b>NPC Book — Relationships</b><div class="inline-drawer-icon fa-solid fa-circle-chevron-down down"></div></div>
+            <div class="inline-drawer-toggle inline-drawer-header"><b><i class="fa-solid fa-users-viewfinder"></i> NPC Book — Relationships</b><div class="inline-drawer-icon fa-solid fa-circle-chevron-down down"></div></div>
             <div class="inline-drawer-content">
                 <label class="checkbox_label"><input type="checkbox" data-k="track"> Track relationships <i class="fa-solid fa-circle-info" title="Each NPC in the scene sends its relationships with you and with the others present, and the AI reports changes. Costs context. Off: the Relationships tabs stay, nothing is sent."></i></label>
                 <div class="flex-container">
